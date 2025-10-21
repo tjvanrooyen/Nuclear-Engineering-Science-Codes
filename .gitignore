@@ -134,15 +134,10 @@ dmypy.json
 .DS_Store
 Thumbs.db
 
-# Data files (uncomment if needed)
+# Data files - Allow data folder Excel files
 # *.csv
-# *.xlsx
 # *.h5
 # *.hdf5
 
-# Large output files
-*.png
-*.jpg
-*.pdf
-output/
-results/
+# Allow GraphBank output files for the notebook
+# Note: We're keeping data/*.xlsx and GraphBank/*.png in the repo
