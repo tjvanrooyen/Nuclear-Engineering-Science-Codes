@@ -1,0 +1,3 @@
+# Windows command scripts must keep CRLF line endings in every clone:
+# with LF only, cmd.exe can fail to find the "goto" labels.
+*.cmd text eol=crlf

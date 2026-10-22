@@ -133,11 +133,21 @@ dmypy.json
 # OS specific
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Word lock files of open documents
+~$*
+
+# Quarto cache and intermediate render files
+.quarto/
+*.quarto_ipynb
+*_files/
 
 # Data files - Allow data folder Excel files
 # *.csv
 # *.h5
 # *.hdf5
 
-# Allow GraphBank output files for the notebook
-# Note: We're keeping data/*.xlsx and GraphBank/*.png in the repo
+# The data (.xlsx), graphs (.pdf, .svg) and rendered documents of each code
+# are kept in the repo.  The 1200-dpi .png graphs are not copied here by
+# Publish_to_GitHub.cmd (they are large and the notebook re-creates them).

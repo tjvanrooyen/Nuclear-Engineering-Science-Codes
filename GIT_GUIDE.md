@@ -1,5 +1,15 @@
 # Git & GitHub Quick Reference Guide
 
+## ⭐ The Easy Way for This Repository
+
+1. Edit the code in your local project folder, the folder that contains
+   `GitHubSpace`. Never edit inside `GitHubSpace` itself.
+2. Double-click `Publish_to_GitHub.cmd` in that project folder.
+
+The script runs `git pull`, copies the code into
+`GitHubSpace\Neutron_Reproduction_Factor`, and then runs `git commit` and
+`git push`. The commands below are what it does for you.
+
 ## 🚀 Basic Workflow
 
 ### Before You Start Working
