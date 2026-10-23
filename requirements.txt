@@ -1,0 +1,16 @@
+# Python packages needed by Neutron_Reproduction_Factor_Fuels.ipynb
+# Install with:   pip install -r requirements.txt
+#
+# Tested with Python 3.14.8, numpy 2.5.3, scipy 1.18.1, pandas 3.0.6,
+# openpyxl 3.1.5, matplotlib 3.11.2, pint 0.26.1, ipykernel 7.4.0
+
+numpy>=2.0
+scipy>=1.13
+pandas>=2.2
+openpyxl>=3.1        # lets pandas read the .xlsx data files
+matplotlib>=3.9
+pint>=0.24           # physical units
+
+# Jupyter kernel for VS Code, and the Jupyter engine that Quarto renders with
+ipykernel>=6.29
+jupyter>=1.0

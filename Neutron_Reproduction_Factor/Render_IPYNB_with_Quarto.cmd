@@ -53,14 +53,14 @@ echo.
 echo ===========================================================
 echo  2/3  PDF    ^(Typst, A3, 14 pt text / 11 pt code^)
 echo ===========================================================
-call quarto render "%NOTEBOOK%" --to typst --execute --no-cache --no-clean --output-dir "%OUTDIR%"
+call quarto render "%NOTEBOOK%" --to typst --no-cache --no-clean --output-dir "%OUTDIR%"
 if errorlevel 1 goto :failed
 
 echo.
 echo ===========================================================
 echo  3/3  DOCX   ^(A3, 16 pt text / 12 pt tables / 10 pt code^)
 echo ===========================================================
-call quarto render "%NOTEBOOK%" --to docx --execute --no-cache --no-clean --output-dir "%OUTDIR%"
+call quarto render "%NOTEBOOK%" --to docx --no-cache --no-clean --output-dir "%OUTDIR%"
 if errorlevel 1 goto :failed
 
 echo.
